@@ -36,5 +36,5 @@ WatchConnectivity demo app
 
 Software/hardware hobbyist in Akron Ohio
 
-- GitHub Landing Page:  [My Work](https://ewalk40.github.io/
+- GitHub Landing Page:  [My Work](https://ewalk40.github.io/)
 - Social: [Twitter](https://twitter.com/ewalk40) / [LinkedIn](https://www.linkedin.com/in/eric-walker-003364117)
