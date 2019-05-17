@@ -1,10 +1,3 @@
-//
-//  ExtensionDelegate.swift
-//  WatchConnectivityDemo WatchKit Extension
-//
-//  Created by Eric Walker on 5/17/19.
-//  Copyright © 2019 Eric Walker. All rights reserved.
-//
 
 import WatchKit
 
