@@ -18,14 +18,15 @@ class InterfaceController: WKInterfaceController, WCSessionDelegate {
     override func awake(withContext context: Any?) {
         super.awake(withContext: context)
         
-        wcSession = WCSession.default
-        wcSession.delegate = self
-        wcSession.activate()
-        
     }
     
     override func willActivate() {
         super.willActivate()
+        
+        wcSession = WCSession.default
+        wcSession.delegate = self
+        wcSession.activate()
+        
     }
     
     override func didDeactivate() {
@@ -34,6 +35,14 @@ class InterfaceController: WKInterfaceController, WCSessionDelegate {
     
     // MARK: WCSession Methods
 
+    func session(_ session: WCSession, didReceiveMessage message: [String : Any]) {
+        
+        let text = message["message"] as! String
+        
+        textLabel.setText(text)
+        
+    }
+    
     func session(_ session: WCSession, activationDidCompleteWith activationState: WCSessionActivationState, error: Error?) {
         
         // Code
