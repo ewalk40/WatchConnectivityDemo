@@ -45,7 +45,7 @@ class InterfaceController: WKInterfaceController, WCSessionDelegate {
     
     func session(_ session: WCSession, activationDidCompleteWith activationState: WCSessionActivationState, error: Error?) {
         
-        // Code
+        // Code.
         
     }
 
